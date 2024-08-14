@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
+
+*, *::after, ::before {
+  box-sizing: inherit; }
+
+a, ul, li, h1, h2, h3, p, div, button, header, body, img, section, input {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000; }
+
+img {
+  pointer-events: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.container {
+  max-width: 350px;
+  padding: 15px;
+  margin: 0 auto; }
+
+.product {
+  max-width: 270px;
+  max-height: 270px;
+  color: #fff; }
+  .product img {
+    width: 270px;
+    height: 270px; }
+
+/*# sourceMappingURL=style.css.map */
